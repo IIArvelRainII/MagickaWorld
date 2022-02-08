@@ -1,0 +1,813 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro N; OS build 19044.1466; Version 2009; 64bit' Language: 'es' Physical Memory: 8103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Unity\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/ProyectosUnity/Game Developing/MagickaWorld
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60939
+Successfully changed project path to: E:/ProyectosUnity/Game Developing/MagickaWorld
+E:/ProyectosUnity/Game Developing/MagickaWorld
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 177.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path E:/Unity/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/ProyectosUnity/Game Developing/MagickaWorld/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 650 (ID=0xfc6)
+    Vendor:   NVIDIA
+    VRAM:     984 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'E:/Unity/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: E:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: E:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.001801 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 222.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1771ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (696ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (222ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007629 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\ProyectosUnity\Game Developing\MagickaWorld\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\ProyectosUnity\Game Developing\MagickaWorld\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.594 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1595ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1316ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (472ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3179 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.6 MB.
+System memory in use after: 211.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3649.
+Total: 3.855000 ms (FindLiveObjects: 0.276400 ms CreateObjectMapping: 0.170600 ms MarkObjects: 3.261300 ms  DeleteObjects: 0.145500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_picking_keyhole_02.wav
+  artifactKey: Guid(eba5de39633d9304fae7fbe8fe86f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_picking_keyhole_02.wav using Guid(eba5de39633d9304fae7fbe8fe86f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8792fd494e64d68bfbd1657def40b3a4') in 0.161416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_open_04.wav
+  artifactKey: Guid(3f7afb84b0ece9846a3c0b7070ca3f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_open_04.wav using Guid(3f7afb84b0ece9846a3c0b7070ca3f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dee674192c5596ad6f43e335bd53fc5') in 0.042666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_picking_keyhole_01.wav
+  artifactKey: Guid(d635bb9f9cf975e43b45c2c76fcef6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_picking_keyhole_01.wav using Guid(d635bb9f9cf975e43b45c2c76fcef6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9cac128fc771c7fb66c259fb48c447') in 0.049583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_open_02.wav
+  artifactKey: Guid(d5ad74e0078ac784baf1ba950c908445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_open_02.wav using Guid(d5ad74e0078ac784baf1ba950c908445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ba6ccbb348563e8c9bcebca078b290') in 0.050465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_squeak_02.wav
+  artifactKey: Guid(55f83e9b906a2bf488dccfe80bad46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_squeak_02.wav using Guid(55f83e9b906a2bf488dccfe80bad46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4304bd7e499d561f8cc7c29fc2ff182') in 0.043708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_03.wav
+  artifactKey: Guid(877596406cec36d498cd3ccf35fa4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_03.wav using Guid(877596406cec36d498cd3ccf35fa4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd996cf03b9a0342723d6b9160979d994') in 0.033896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_metal_draw_slide_close_01.wav
+  artifactKey: Guid(45f96bb99d064aa429059b0810f9a74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_metal_draw_slide_close_01.wav using Guid(45f96bb99d064aa429059b0810f9a74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f7119c745ba5dc6d39d44b09fc6f1') in 0.032299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_04.wav
+  artifactKey: Guid(a176bccaa1ade2d4cb58ab806d71bd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_04.wav using Guid(a176bccaa1ade2d4cb58ab806d71bd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4d586ea297d999e5c08df8ff07ac28') in 0.021367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_picking_keyhole_03.wav
+  artifactKey: Guid(4cdb1081c673c1a44af000733824b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_picking_keyhole_03.wav using Guid(4cdb1081c673c1a44af000733824b9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb718b9fd6e084a30ac319ed64622e3') in 0.026489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_01.wav
+  artifactKey: Guid(e7bf2e7de3ddcac4ebcc013edad38ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_01.wav using Guid(e7bf2e7de3ddcac4ebcc013edad38ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01842855cc8622dd9791ae2affb3c3a') in 0.022895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_squeak_01.wav
+  artifactKey: Guid(6c0f2a7b02480ae4197a439e6b6125c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_squeak_01.wav using Guid(6c0f2a7b02480ae4197a439e6b6125c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405743bc7cad30f016af9becd72132cf') in 0.029275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_turn_02.wav
+  artifactKey: Guid(b8ae4b17ed0c1394394d1751bd5e652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_turn_02.wav using Guid(b8ae4b17ed0c1394394d1751bd5e652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fc77fb35c5b478df4d17b8d884da92') in 0.023517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_05.wav
+  artifactKey: Guid(e6e6583c2d6f7e247bd6f4eceecf64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_05.wav using Guid(e6e6583c2d6f7e247bd6f4eceecf64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8172a5035d06b8a76d7518e3a07b5fe3') in 0.020790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_02.wav
+  artifactKey: Guid(53c2057ff3a2cdf4599b4863074c847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_02.wav using Guid(53c2057ff3a2cdf4599b4863074c847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf27d1c0c23f06c5f9fbdf29ab0ce93c') in 0.023674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_03.wav
+  artifactKey: Guid(a8c58dfa3e2332e499dc02f967ffa2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_03.wav using Guid(a8c58dfa3e2332e499dc02f967ffa2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27a4fb0606ba588a258c21752131543') in 0.032630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_turn_01.wav
+  artifactKey: Guid(898fb9d6d9576734fad243d959c144b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_turn_01.wav using Guid(898fb9d6d9576734fad243d959c144b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbe4a1d5d1ed76c0d093f5790bdfa04') in 0.028603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_picking_keyhole_04.wav
+  artifactKey: Guid(fdf7c8eda7257a34eb2775272648bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_picking_keyhole_04.wav using Guid(fdf7c8eda7257a34eb2775272648bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631f6463172744b83c80070d83dfcc6d') in 0.033829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_open_03.wav
+  artifactKey: Guid(6ce16ef983ba0a240b819833b2e603ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_open_03.wav using Guid(6ce16ef983ba0a240b819833b2e603ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343539169018981ac94cd43796cb9b8c') in 0.016056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_02.wav
+  artifactKey: Guid(cf7b6dde1fc75f14a9255b6383037d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_02.wav using Guid(cf7b6dde1fc75f14a9255b6383037d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d00eb9232cbdb534c1214c54f7c6ff') in 0.022528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_metal_draw_slide_close_02.wav
+  artifactKey: Guid(18ffd306910177945afabad55ca854fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_metal_draw_slide_close_02.wav using Guid(18ffd306910177945afabad55ca854fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a091a7d0d593ff979d02cd77b00f3caa') in 0.023974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_metal_draw_slide_open_01.wav
+  artifactKey: Guid(5629efe5d8df63f448ead4782d9d5b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_metal_draw_slide_open_01.wav using Guid(5629efe5d8df63f448ead4782d9d5b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa465645719685ff5ce9cb2ae9885615') in 0.034648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_01.wav
+  artifactKey: Guid(006a185e260301c428454086855ad828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_01.wav using Guid(006a185e260301c428454086855ad828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac57730dce0ba9908e072939d7a0aaa') in 0.031400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_05.wav
+  artifactKey: Guid(ed5eb2cf0c4fc464da9728b44f23f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_old_wooden_close_thud_05.wav using Guid(ed5eb2cf0c4fc464da9728b44f23f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2de5914a07f04652b756f589886e3f') in 0.031262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_04.wav
+  artifactKey: Guid(e023d5859f7487d4f8c094f5414729b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Doors/door_lock_slide_04.wav using Guid(e023d5859f7487d4f8c094f5414729b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2748df11e1640fb275967195d50583e7') in 0.021937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.575962 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_contact_01.wav
+  artifactKey: Guid(58e15f7df02ed744ea63fbb5009cb47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_contact_01.wav using Guid(58e15f7df02ed744ea63fbb5009cb47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6690988756a6065e9afd42bcff721373') in 0.043471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_enemy_spotted_01.wav
+  artifactKey: Guid(dc830033ecab3874fabfbdc7421f0639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_enemy_spotted_01.wav using Guid(dc830033ecab3874fabfbdc7421f0639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63858064e5437d83c5800f5a8e38261') in 0.067983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_genade_01.wav
+  artifactKey: Guid(2d5aeb5f5eb694d4aa3e5e9feedcdd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_genade_01.wav using Guid(2d5aeb5f5eb694d4aa3e5e9feedcdd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc2995546bd531c88eb377d0690bde5') in 0.032939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_enemy_down_01.wav
+  artifactKey: Guid(5227a841c4b5ecc46993f451dd20d931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_enemy_down_01.wav using Guid(5227a841c4b5ecc46993f451dd20d931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9544c8fe479f8384862652f042c19224') in 0.036065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_genade_02.wav
+  artifactKey: Guid(068c0489ce5820d4ea9d70d0619d87d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_genade_02.wav using Guid(068c0489ce5820d4ea9d70d0619d87d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e2276f60823ce4a113e4d9e5540293') in 0.053354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_fire_02.wav
+  artifactKey: Guid(ecab151c8a84ba14ea44de6924c7229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_fire_02.wav using Guid(ecab151c8a84ba14ea44de6924c7229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561339081a5952c6894039c52a8d46d1') in 0.031184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_cover_me_01.wav
+  artifactKey: Guid(6b3dbe2b5fdbf554ab714295a729b164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_cover_me_01.wav using Guid(6b3dbe2b5fdbf554ab714295a729b164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421abad82fa4ff248f1f61ed126da219') in 0.054503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_enemy_inbound_01.wav
+  artifactKey: Guid(ffe5e3b1c026036448d10704c427b747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_enemy_inbound_01.wav using Guid(ffe5e3b1c026036448d10704c427b747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13d55322797ffbf282aa68df4be9278') in 0.051519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_fire_01.wav
+  artifactKey: Guid(160442b9d1b339948b05249f535847b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_fire_01.wav using Guid(160442b9d1b339948b05249f535847b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcadaa0cb5df2d8a49e08a46888923b') in 0.021746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.454892 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_get_down_01.wav
+  artifactKey: Guid(84074067ee0e3e24e90a98043743f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_get_down_01.wav using Guid(84074067ee0e3e24e90a98043743f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c767a5a86583892139c695c4ddc0f354') in 0.035131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.282062 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_01.wav
+  artifactKey: Guid(1d56e9305141f6642966c1ec0b7e0e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_01.wav using Guid(1d56e9305141f6642966c1ec0b7e0e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608ff4b58cf3e62db40d6dbb86333149') in 0.045558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_retreat_01.wav
+  artifactKey: Guid(817c2b9aae3140641b37e6f15c0c6ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_retreat_01.wav using Guid(817c2b9aae3140641b37e6f15c0c6ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cae2a15451cc330d810dfd88f8fa91') in 0.029428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_go_go_01.wav
+  artifactKey: Guid(3f1a40d81dd91774592598bc1ffaf56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_go_go_01.wav using Guid(3f1a40d81dd91774592598bc1ffaf56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce22f1f99e4dd63124a0fc8ce7deeb7') in 0.024787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_go_go_02.wav
+  artifactKey: Guid(926ff83e1c9468b48843a8309dbd75d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_go_go_02.wav using Guid(926ff83e1c9468b48843a8309dbd75d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fc5bd347271ba006632520d734c9ea') in 0.039356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_move_out_02.wav
+  artifactKey: Guid(44c96e5f9095f884388e86903309f042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_move_out_02.wav using Guid(44c96e5f9095f884388e86903309f042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122ac415ae1e906a4d2e1b0a01a20ff0') in 0.027853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_hold_01.wav
+  artifactKey: Guid(e76fb5d2ae3945c45b3dedaf0498b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_hold_01.wav using Guid(e76fb5d2ae3945c45b3dedaf0498b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9508fd3986b1d44c177350a6252c6e53') in 0.024413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_we're_being_overrun_01.wav
+  artifactKey: Guid(9c9e9617d08ef52448b4ed6a2d89951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_we're_being_overrun_01.wav using Guid(9c9e9617d08ef52448b4ed6a2d89951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213a47f0d8d4d73ecd3ea29929419ef0') in 0.023910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_move_out_01.wav
+  artifactKey: Guid(7233184db47f595469f3aabefb826a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_move_out_01.wav using Guid(7233184db47f595469f3aabefb826a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79dba867eeffcb6b5739ae151492e2f') in 0.034518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_go_go_03.wav
+  artifactKey: Guid(011d1d84bc3e248498e41fe616d576c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_go_go_03.wav using Guid(011d1d84bc3e248498e41fe616d576c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724573efacedb55635dab6a7c8f64966') in 0.033034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_move_out_03.wav
+  artifactKey: Guid(4adc8a3c62eee2d46aa2b8413c8338e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_move_out_03.wav using Guid(4adc8a3c62eee2d46aa2b8413c8338e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66ee9aec427e3ada4cf4e979eb5371b') in 0.023092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_go_go_04.wav
+  artifactKey: Guid(839a263bbbd41ca4bb90fc2aa2fc4732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_go_go_go_04.wav using Guid(839a263bbbd41ca4bb90fc2aa2fc4732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25066d680d93aad70488092e4034b923') in 0.046463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_retreat_02.wav
+  artifactKey: Guid(aba6b0968f5436641a22e9bcaeff893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Radio/radio_voice_male_soldier_retreat_02.wav using Guid(aba6b0968f5436641a22e9bcaeff893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535bba00f7baf3de18e4ffb23eeaa223') in 0.057890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.478002 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_01.wav
+  artifactKey: Guid(f8f3d8b4def422d408b9478fca7f6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_01.wav using Guid(f8f3d8b4def422d408b9478fca7f6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1c1112cf71de385dc29159448756e0') in 0.032360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_12.wav
+  artifactKey: Guid(feff9149fdb983f4cb9a1c2b9a084148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_12.wav using Guid(feff9149fdb983f4cb9a1c2b9a084148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcb101d82ea082884d918cf8c7b547b') in 0.053940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_04.wav
+  artifactKey: Guid(bf51d15293f6dec4cbaa30fe9841608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_04.wav using Guid(bf51d15293f6dec4cbaa30fe9841608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a5bcb543d1ba2c2c3b0e707d550913') in 0.025495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_07.wav
+  artifactKey: Guid(080bd2f11ff52e84ba821598e115f8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_07.wav using Guid(080bd2f11ff52e84ba821598e115f8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaea7c251e52a6effedd52f4cd51f406') in 0.026849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_05.wav
+  artifactKey: Guid(6abc8f4a9abbb404093acb98ce6597d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_05.wav using Guid(6abc8f4a9abbb404093acb98ce6597d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbaaba3da662a791ffb332385ff4c26') in 0.017415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_02.wav
+  artifactKey: Guid(ccd3dffbaf859cb4095b96de6eaaea63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_02.wav using Guid(ccd3dffbaf859cb4095b96de6eaaea63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fe0001236dc57b65a5a3b119417e58') in 0.027603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_06.wav
+  artifactKey: Guid(438822771a0649943b16a0516c7e1a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_06.wav using Guid(438822771a0649943b16a0516c7e1a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28852795d8329077b890a0515acadd85') in 0.028105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_03.wav
+  artifactKey: Guid(4e842b71f6aaeb34488046b84a0ef409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_03.wav using Guid(4e842b71f6aaeb34488046b84a0ef409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ee407296545d5eab95eac4efa13e0e') in 0.050381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_10.wav
+  artifactKey: Guid(4e9cf49b73879994fab2c7a8017eda2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_10.wav using Guid(4e9cf49b73879994fab2c7a8017eda2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b9254ba81738faee4bc777aec7ba7f') in 0.015612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_loop.wav
+  artifactKey: Guid(8369db089de82074fb5154c213629e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_loop.wav using Guid(8369db089de82074fb5154c213629e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e16c2ecf6786d1bb83557b78debadf') in 0.039936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_04.wav
+  artifactKey: Guid(44a64d792d9cd43478bfe586e2a97010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_04.wav using Guid(44a64d792d9cd43478bfe586e2a97010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0687e4298ba69f3fa2dc4697d7cec469') in 0.042768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_03.wav
+  artifactKey: Guid(555fed6a0d46ad54a894e1f192fff3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_03.wav using Guid(555fed6a0d46ad54a894e1f192fff3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcc42feedf53f2880c70a6967c5f2fd') in 0.042438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_05.wav
+  artifactKey: Guid(a22098c825033f845856a0edc78d2a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_05.wav using Guid(a22098c825033f845856a0edc78d2a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7c0cae67bd2c0d78022cc0ad3b0bc2') in 0.044484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_05.wav
+  artifactKey: Guid(fed0868802ec3b9428822989ed693806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_05.wav using Guid(fed0868802ec3b9428822989ed693806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c2416a07b2dc6091d4c59986f7b4d8') in 0.050226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type3_01.wav
+  artifactKey: Guid(138fcf423a417af4b9cadf7c6cfaf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type3_01.wav using Guid(138fcf423a417af4b9cadf7c6cfaf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f17303e3236bd7b7c5be31ced668927') in 0.044416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_04.wav
+  artifactKey: Guid(e062df4b3f4ab964c948795e18950472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_04.wav using Guid(e062df4b3f4ab964c948795e18950472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d73a6dc61345f8819d9d9472090aa0') in 0.054300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_05.wav
+  artifactKey: Guid(7b577bfb339309444aa30ace53693bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_05.wav using Guid(7b577bfb339309444aa30ace53693bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740ca290bc85ef762e29aeb1416d01f4') in 0.029946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type3_02.wav
+  artifactKey: Guid(86ebab9df352d5945810a3bce072f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type3_02.wav using Guid(86ebab9df352d5945810a3bce072f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c99a371f800f522c29c3c534563591') in 0.047283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bullets/bullet_impact_body_flesh_01.wav
+  artifactKey: Guid(323fe01f7b57ce7429681e5705d919fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bullets/bullet_impact_body_flesh_01.wav using Guid(323fe01f7b57ce7429681e5705d919fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6886504f51e977bf985c066136dc2cf') in 0.055547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_04.wav
+  artifactKey: Guid(9aa9cf8067116844db77d7036246af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_04.wav using Guid(9aa9cf8067116844db77d7036246af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c8e61dbc2743101086affed4e2bfc3') in 0.040185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_02.wav
+  artifactKey: Guid(6c1a6989b0590bf40b56f6c20945936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_02.wav using Guid(6c1a6989b0590bf40b56f6c20945936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbda4ccdc1f6f668b4b4e64f3a7fb502') in 0.044737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type3_04.wav
+  artifactKey: Guid(199e32d7af91a934394c83c1c1853a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type3_04.wav using Guid(199e32d7af91a934394c83c1c1853a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0812ac140fb7555aa42ae6c6b7bb0ed') in 0.108892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_07.wav
+  artifactKey: Guid(25845e1c40435d943b6294b832cdc6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_07.wav using Guid(25845e1c40435d943b6294b832cdc6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820390769f34bb7a0f33a910a4836616') in 0.013798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_01.wav
+  artifactKey: Guid(6fa5d6f47e49ab14089a9b57c7eb69eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_01.wav using Guid(6fa5d6f47e49ab14089a9b57c7eb69eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15ba23061af9875d823b384cdc5836a') in 0.037019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_03.wav
+  artifactKey: Guid(a6a1286582f3f2346abfc3b6c7bffc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_03.wav using Guid(a6a1286582f3f2346abfc3b6c7bffc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe2f3229dfec5b0efdd51abd6c569e1') in 0.030954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_05.wav
+  artifactKey: Guid(cb031fbc6adbfa9488fbee287cc22302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_05.wav using Guid(cb031fbc6adbfa9488fbee287cc22302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfc1470fb01254b58244f1856e94ad5') in 0.035277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_02.wav
+  artifactKey: Guid(2f54860ccd48aee4fa1dada3cb0cd2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_02.wav using Guid(2f54860ccd48aee4fa1dada3cb0cd2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5843d5d0b93195e030ce4c942ddc51a4') in 0.022736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_01.wav
+  artifactKey: Guid(1fd7f6071fde33b41b67eaff51bdf5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_01.wav using Guid(1fd7f6071fde33b41b67eaff51bdf5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf766ba758ab7c44643b2d5fee7eedc') in 0.026894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_09.wav
+  artifactKey: Guid(33ee7f83fe859e349ab91ce271261a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_09.wav using Guid(33ee7f83fe859e349ab91ce271261a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dda6a2068c9c2b154cfa5c01d9409f8') in 0.041980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_08.wav
+  artifactKey: Guid(5193a6ebf09557745acdbc87ecc20b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_08.wav using Guid(5193a6ebf09557745acdbc87ecc20b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed25e6115c499c476ce7d4e1a27fb0af') in 0.024468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_01.wav
+  artifactKey: Guid(cf22bf891828c574fbfe679b9c25c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_01.wav using Guid(cf22bf891828c574fbfe679b9c25c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb5f63b7f674fc3f6c18f4f1e04f57a') in 0.014362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_08.wav
+  artifactKey: Guid(d5da0968868a8754591ccd8a67b41ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_08.wav using Guid(d5da0968868a8754591ccd8a67b41ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e4283c193d4eed8425eef65f1977a8') in 0.039528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_03.wav
+  artifactKey: Guid(160793114ec863647b0b5fddf0dc497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_03.wav using Guid(160793114ec863647b0b5fddf0dc497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a49ebea7536c7abcfc61e64cf8d3b99') in 0.022796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_04.wav
+  artifactKey: Guid(66c69533cd52c284498ce7d4654d0f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_04.wav using Guid(66c69533cd52c284498ce7d4654d0f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4066998ee6e02d1da01459ebc0014f11') in 0.035544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_01.wav
+  artifactKey: Guid(ea28b38424eff8844aedc8f836e7fba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_01.wav using Guid(ea28b38424eff8844aedc8f836e7fba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f295f4b3b6cc32feccaa1dba1edf77ab') in 0.058759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_02.wav
+  artifactKey: Guid(dde138c56bbb5194f96a31f82031b2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shine_light_spell_02.wav using Guid(dde138c56bbb5194f96a31f82031b2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19614b161f53c92ae673d74dae83cf4') in 0.051715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_02.wav
+  artifactKey: Guid(098f2f931ac646b4ebe25dc66060c959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Magic_Spells/magic_shinny_high_tone_02.wav using Guid(098f2f931ac646b4ebe25dc66060c959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f5286c4b1beb0cdb38ac7a98937b13') in 0.038611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type3_03.wav
+  artifactKey: Guid(c80e3d680ebd9bb448fd2bd5e28259f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type3_03.wav using Guid(c80e3d680ebd9bb448fd2bd5e28259f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583152d906cc11d72379a41e95328cfd') in 0.037053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_11.wav
+  artifactKey: Guid(a6836c20a56e5d1458e074901a3c00c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Metal/metal_low_creaking_ship_structure_11.wav using Guid(a6836c20a56e5d1458e074901a3c00c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e4ed61930f42cf15927a50b9a4b23a') in 0.037267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_06.wav
+  artifactKey: Guid(f4512d46df0e0c041969306045193842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type1_06.wav using Guid(f4512d46df0e0c041969306045193842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5584cc2a58cf28a92232e13c1783c5ca') in 0.045859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_03.wav
+  artifactKey: Guid(a345c34b77a1d3542adbc0f19b168e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Bow_Arrow/bow_crossbow_arrow_shoot_type2_03.wav using Guid(a345c34b77a1d3542adbc0f19b168e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c48e327bcef2a83874cdda3bda6798') in 0.025869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.055315 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_pistol_safety_switch_01.wav
+  artifactKey: Guid(902198ca508edc54dbfc06fa643c7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_pistol_safety_switch_01.wav using Guid(902198ca508edc54dbfc06fa643c7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7617351fd97e963e737af18622614170') in 0.062059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_shotgun_safety_switch_01.wav
+  artifactKey: Guid(72a0ae245ed4d2a42abcb84a5cbdbba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_shotgun_safety_switch_01.wav using Guid(72a0ae245ed4d2a42abcb84a5cbdbba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afb386154ff9ca38093c6ce4b76c0ff') in 0.055483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Collectibles_Items_Powerup/item_pickup_swipe_01.wav
+  artifactKey: Guid(9a3f14dfc0d54a945bbfbcf48a84477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Collectibles_Items_Powerup/item_pickup_swipe_01.wav using Guid(9a3f14dfc0d54a945bbfbcf48a84477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea226e03cbe647a5555543dee7057ac') in 0.065648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_semi_auto_rifle_safety_switch_02.wav
+  artifactKey: Guid(2c02d0542a1232b4599c88afca959029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_semi_auto_rifle_safety_switch_02.wav using Guid(2c02d0542a1232b4599c88afca959029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3472fa7684ff7abd9743cc1caaea0562') in 0.058508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_shotgun_safety_switch_04.wav
+  artifactKey: Guid(6dc3ed9f1c0267b48967093c47e9012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_shotgun_safety_switch_04.wav using Guid(6dc3ed9f1c0267b48967093c47e9012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5248f4ef176607ad572525a908be85ce') in 0.044242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_semi_auto_rifle_safety_switch_03.wav
+  artifactKey: Guid(136b9c84afcb7e34aa47d6d2e1456052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_semi_auto_rifle_safety_switch_03.wav using Guid(136b9c84afcb7e34aa47d6d2e1456052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24647c32c6915abde74d771538f6a558') in 0.044461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_submachine_auto_magazine_safety_switch_02.wav
+  artifactKey: Guid(618f107304d243e4fbdefc26a782a779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_submachine_auto_magazine_safety_switch_02.wav using Guid(618f107304d243e4fbdefc26a782a779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a55d7789101434cef8f5d2fbe43aeda') in 0.023253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_pistol_safety_switch_02.wav
+  artifactKey: Guid(2d0ad003fc626f94f9bd453b7ec008ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_pistol_safety_switch_02.wav using Guid(2d0ad003fc626f94f9bd453b7ec008ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a865dd2e120ac601597e4de743fef5') in 0.018841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_submachine_auto_magazine_safety_switch_01.wav
+  artifactKey: Guid(6076b07b07f00fa4f8f939fdfacec37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_submachine_auto_magazine_safety_switch_01.wav using Guid(6076b07b07f00fa4f8f939fdfacec37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5ec59ca66818abfcf37cff9718fc19') in 0.022544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_shotgun_safety_switch_02.wav
+  artifactKey: Guid(c8ac3001646bd30478513fed94bf0166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_shotgun_safety_switch_02.wav using Guid(c8ac3001646bd30478513fed94bf0166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4458b8fc591ac36c945874f1c6d7c5f2') in 0.041901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_rifle_safety_switch_02.wav
+  artifactKey: Guid(bcf732357da58bd449acbe256e3b9341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_rifle_safety_switch_02.wav using Guid(bcf732357da58bd449acbe256e3b9341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857cefb3302889be9b38dd73edf81ef4') in 0.020775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_semi_auto_rifle_safety_switch_01.wav
+  artifactKey: Guid(d190b8b4f63483a48b545f2364dfb71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_semi_auto_rifle_safety_switch_01.wav using Guid(d190b8b4f63483a48b545f2364dfb71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b4a78ab3925637e378065a80b42c64') in 0.025656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_shotgun_safety_switch_03.wav
+  artifactKey: Guid(0a79f5c0427aa7c4a92e23dddc693f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_shotgun_safety_switch_03.wav using Guid(0a79f5c0427aa7c4a92e23dddc693f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c77840d79a2dd6777e503fdf77349e9') in 0.025855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_rifle_safety_switch_01.wav
+  artifactKey: Guid(93dc59aa839149c498b0fbfc3fca6a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Guns_Weapons/Guns/gun_rifle_safety_switch_01.wav using Guid(93dc59aa839149c498b0fbfc3fca6a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740318576f5c4d34b1d94c346cd26449') in 0.025587 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004739 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\ProyectosUnity\Game Developing\MagickaWorld\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\ProyectosUnity\Game Developing\MagickaWorld\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.4 MB.
+System memory in use after: 213.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3660.
+Total: 3.866200 ms (FindLiveObjects: 0.264400 ms CreateObjectMapping: 0.152400 ms MarkObjects: 3.320600 ms  DeleteObjects: 0.127200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
